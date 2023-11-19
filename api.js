@@ -50,7 +50,7 @@ function carValue(carModel, carYear) {
   }
 
   return carModelValue + carYear;
-}
+};
   
   module.exports = carValue;
 

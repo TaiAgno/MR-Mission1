@@ -32,8 +32,6 @@ describe('API tests', () => {
 
         expect(() => carValue(carModel, carYear)).toThrow(`Car year must be a number smaller than ${currentYear} and bigger than 1885`);
     });
-});
-
 
     // TEST 4 - string for year
     it(`should return error message: year has to be provided in numbers`, () => {
@@ -51,3 +49,5 @@ describe('API tests', () => {
 
         expect(() => carValue(carModel, carYear)).toThrow(`Fields cannot be empty`);
     });
+
+});
